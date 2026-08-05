@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotstar Profile Bypass</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <div class="header">
+      <div class="logo">
+        <span class="icon">🚀</span>
+        <span>Hotstar Bypass</span>
+      </div>
+      <div class="status" id="statusBadge">
+        <span class="dot" id="statusDot"></span>
+        <span id="statusText">Ready</span>
+      </div>
+    </div>
+
+    <!-- Main Controls -->
+    <div class="main-section">
+      <button class="btn-bypass" id="bypassBtn">
+        <span class="btn-icon">⚡</span>
+        <span class="btn-text">Bypass Profile Screen</span>
+      </button>
+      <div class="btn-sub">One click to bypass "Who's Watching"</div>
+    </div>
+
+    <!-- Quick Actions -->
+    <div class="section">
+      <div class="section-title">⚡ Quick Actions</div>
+      <div class="quick-grid">
+        <button class="quick-btn" data-action="selectKids">
+          <span>👶</span> Select Kids
+        </button>
+        <button class="quick-btn" data-action="selectAdult">
+          <span>👤</span> Select Adult
+        </button>
+        <button class="quick-btn" data-action="createProfile">
+          <span>➕</span> Create Profile
+        </button>
+        <button class="quick-btn" data-action="clearBypass">
+          <span>🔄</span> Reset
+        </button>
+      </div>
+    </div>
+
+    <!-- Settings -->
+    <div class="section">
+      <div class="section-title">⚙️ Auto-Bypass Settings</div>
+      <div class="setting-row">
+        <label class="switch">
+          <input type="checkbox" id="autoBypass">
+          <span class="slider round"></span>
+        </label>
+        <span class="setting-label">Auto-bypass on page load</span>
+      </div>
+      <div class="setting-row">
+        <label class="switch">
+          <input type="checkbox" id="showNotification">
+          <span class="slider round"></span>
+        </label>
+        <span class="setting-label">Show notification on bypass</span>
+      </div>
+      <div class="setting-row">
+        <label for="profileSelect" class="setting-label">Default Profile:</label>
+        <select id="profileSelect" class="profile-select">
+          <option value="auto">Auto Select</option>
+          <option value="first">First Profile</option>
+          <option value="kids">Kids Profile</option>
+          <option value="adult">Adult Profile</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Info -->
+    <div class="info-section">
+      <div class="info-text">
+        <span>✅ Works on Hotstar & JioCinema</span>
+        <span>🔒 Local processing only</span>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <span>v2.0.0</span>
+      <span>👿 Devil-Echo</span>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
